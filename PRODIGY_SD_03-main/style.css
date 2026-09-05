@@ -1,0 +1,89 @@
+body{
+
+    background:blue;
+
+    min-height:100vh;
+
+    font-family:'Segoe UI',sans-serif;
+
+}
+
+h1{
+
+    color:white;
+
+    font-weight:bold;
+
+}
+
+.card{
+
+    border:none;
+
+    border-radius:18px;
+
+    transition:.3s;
+
+}
+
+.card:hover{
+
+    transform:translateY(-5px);
+
+}
+
+.stats-card{
+
+    cursor:pointer;
+
+}
+
+.btn{
+
+    border-radius:10px;
+
+}
+
+.form-control{
+
+    border-radius:10px;
+
+}
+
+.table{
+
+    vertical-align:middle;
+
+}
+
+.table tbody tr:hover{
+
+    background:#EEF2FF;
+
+}
+
+.btn{
+
+    transition:0.3s;
+
+}
+
+.btn:hover{
+
+    transform:scale(1.05);
+
+}
+
+.stats-card{
+
+    transition:0.3s;
+
+}
+
+.stats-card:hover{
+
+    transform:translateY(-8px);
+
+    box-shadow:0 10px 25px rgba(0,0,0,.2);
+
+}
